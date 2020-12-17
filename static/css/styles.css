@@ -1,0 +1,49 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color:#1b2019;
+    color: #FFF;
+    text-align: center;
+}
+
+#dicemaster {
+    height:255px;
+    background-color:#1b2019;
+    text-align: center;
+    border-bottom-color: black;
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+}
+
+.dicemaster {
+    background-image: url('/static/img/illustration-dicemaster.png');
+    height: 250px;
+    width: 548px;
+    margin: 0 auto 0 auto;
+}
+
+.container {
+    margin-top: 40px;
+}
+
+.install-button {
+    display: block;
+    background-color: #4262FF;
+    border: 1px solid #4262FF;
+    color: #FFF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 550px;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+a:hover {
+    color:#1b2019;
+    text-decoration: none;
+}
